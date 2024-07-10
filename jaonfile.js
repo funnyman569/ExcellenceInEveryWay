@@ -16,9 +16,3 @@ const workers = [
         phon_number: "208-555-1234"
     }
 ]
-const client = [
-    {
-        name: "Brayden Bold",
-        goals: ['wash hand', 'play nice with others', 'eat healthy']
-    }
-]
