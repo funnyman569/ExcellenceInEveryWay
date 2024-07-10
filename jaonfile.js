@@ -1,4 +1,5 @@
-const worker = [
+// this is the file tha will hold the information of the workers
+const workers = [
     {
         f_name: "Cesar",
         l_name: "Tavarez",
