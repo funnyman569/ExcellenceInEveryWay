@@ -5,7 +5,6 @@ public class Person()
     public string l_name {get;};
     public string email {get;};
     public string phoneNumber {get;};
-    public List<string> goals = new List<string>();
 
     public Person() 
     { 
