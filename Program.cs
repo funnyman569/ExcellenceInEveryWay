@@ -15,7 +15,7 @@ class Program
 
         if (choice == 1)
         {
-            FillOutForm();
+            Form();
         }
         else if (choice == 2)
         {
