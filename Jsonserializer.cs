@@ -6,16 +6,17 @@ public class Create
     {
         Person person = new Person();
         {
-            console.Write("Enter your first name: ");
-            person.f_name = console.ReadLine();
-            console.Write("Enter your last name: ");
-            person.l_name = console.ReadLine();
-            console.WriteLine("Enter your title [Parah Professional / Behavior Interventionist]: ");
-            person.title = console.ReadLine();
-            console.Write("Enter your agreed hourly pay: ");
-            person.hourly_pay = console.ReadLine();
-            console.Write("Enter your phone number: ");
-            person.phoneNumber = console.ReadLine();
+            //NOTE FROM HAYDEN: variable assignment doesnt need to be of variable type 'person'
+            Console.Write("Enter your first name: ");
+            person.f_name = Console.ReadLine();
+            Console.Write("Enter your last name: ");
+            person.l_name = Console.ReadLine();
+            Console.WriteLine("Enter your title [Parah Professional / Behavior Interventionist]: ");
+            person.title = Console.ReadLine();
+            Console.Write("Enter your agreed hourly pay: ");
+            person.hourly_pay = Console.ReadLine();
+            Console.Write("Enter your phone number: ");
+            person.phoneNumber = Console.ReadLine();
         }
 
         string jsonString = JsonSerializer.Serialize(person);

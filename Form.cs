@@ -1,34 +1,36 @@
+using System;
+
 class Form
 {
-    public static Form()
+    public Form()
     {
         string date = DateTime.Now.ToString("yyyy-MM-dd");
-        console.WriteLine("Date: " + date);
+        Console.WriteLine("Date: " + date);
 
-        console.Write("Worker's First Name: ");
-        string workerFirstName = console.ReadLine();
+        Console.Write("Worker's First Name: ");
+        string workerFirstName = Console.ReadLine();
 
-        console.Write("Worker's Last Name: ");
-        string workerLastName = console.ReadLine();
+        Console.Write("Worker's Last Name: ");
+        string workerLastName = Console.ReadLine();
 
-        console.write("JobTitle: ");
-        string jobTitle = console.ReadLine();
+        Console.Write("JobTitle: ");
+        string jobTitle = Console.ReadLine();
 
-        console.Write("StartTime: ");
-        string startTime = console.ReadLine();
+        Console.Write("StartTime: ");
+        string startTime = Console.ReadLine();
 
-        console.Write("EndTime: ");
-        string endTime = console.ReadLine();
+        Console.Write("EndTime: ");
+        string endTime = Console.ReadLine();
 
-        console.Write("Total Hours: ");
-        string totalHours = console.ReadLine();
+        Console.Write("Total Hours: ");
+        string totalHours = Console.ReadLine();
 
-        console.WriteLine("Client Info: ");
-        console.Write("First Name: ");
-        string c_firstName = console.ReadLine();
+        Console.WriteLine("Client Info: ");
+        Console.Write("First Name: ");
+        string c_firstName = Console.ReadLine();
 
-        console.Write("Last Name: ");
-        string c_lastName = console.ReadLine();
+        Console.Write("Last Name: ");
+        string c_lastName = Console.ReadLine();
 
         var goalInfoList = new List<GoalInfo>();
 
@@ -38,11 +40,11 @@ class Form
         {
             foreach (string goal in client.goals)
             {
-                console.WriteLine($"Goal: {goal}"); 
-                console.Write("How well did they do on this Goal [1-5]: ")
-                string c_goalRating = console.ReadLine();
-                console.WriteLine("Notes: ");
-                string c_notes = console.ReadLine();
+                Console.WriteLine($"Goal: {goal}"); 
+                Console.Write("How well did they do on this Goal [1-5]: ")
+                string c_goalRating = Console.ReadLine();
+                Console.WriteLine("Notes: ");
+                string c_notes = Console.ReadLine();
 
                 goalInfoList.Add(new GoalInfo
                 {
@@ -54,7 +56,7 @@ class Form
         }
         else
         {
-            console.WriteLine("Client not found");
+            Console.WriteLine("Client not found");
         }
 
         var formData = new

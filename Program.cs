@@ -1,17 +1,17 @@
-class Program
+partial class Program
 {
     static void Main(string[] args)
     {
-        console.WriteLine("Welcome to the Excellence in Every Way. Please choose an option.");
-        console.WriteLine("1. Fill out Form for the day.");
-        console.WriteLine("2. Schedule times for the day.");
-        console.WriteLine("3. Send form to insurance companies and gov");
-        console.WriteLine("4. Pay Emplayees");
-        console.WriteLine("5. Create new employee");
-        console.writelie("6. Create new client");
-        console.WriteLine("7. Exit");
-        console.Write("Pick a number between 1 and 5: ");
-        int choice = int.Parse(console.ReadLine());
+        Console.WriteLine("Welcome to the Excellence in Every Way. Please choose an option.");
+        Console.WriteLine("1. Fill out Form for the day.");
+        Console.WriteLine("2. Schedule times for the day.");
+        Console.WriteLine("3. Send form to insurance companies and gov");
+        Console.WriteLine("4. Pay Emplayees");
+        Console.WriteLine("5. Create new employee");
+        Console.WriteLine("6. Create new client");
+        Console.WriteLine("7. Exit");
+        Console.Write("Pick a number between 1 and 5: ");
+        int choice = int.Parse(Console.ReadLine());
 
         if (choice == 1)
         {
@@ -43,7 +43,7 @@ class Program
         }
         else
         {
-            console.WriteLine("Invalid choice.");
+            Console.WriteLine("Invalid choice.");
             Main(args);
         }
     }
