@@ -13,3 +13,6 @@
 /Users/haydenh/Desktop/untitled folder/obj/Debug/net8.0/untitled folder.pdb
 /Users/haydenh/Desktop/untitled folder/obj/Debug/net8.0/untitled folder.genruntimeconfig.cache
 /Users/haydenh/Desktop/untitled folder/obj/Debug/net8.0/ref/untitled folder.dll
+/Users/haydenh/Desktop/untitled folder/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/haydenh/Desktop/untitled folder/obj/Debug/net8.0/untitled folder.csproj.AssemblyReference.cache
+/Users/haydenh/Desktop/untitled folder/obj/Debug/net8.0/untitled.6B2AFEF5.Up2Date

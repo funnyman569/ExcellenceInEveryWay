@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p0TFR4AhQqOPnvVBoM+bG9yzrfOhF22sx4ThCXqKJMiSwB7WDI7WpoKjULucnKGTWdfDK3oXXqtUtHyVMbrjjw==",
+  "dgSpecHash": "DL7GDsHxF30Gnd9qBR4/4hsnDheWi8NdkV392EPokMyoCrMSXAeSNOuP09eZ7gZINxnyx91ecusgJg6KAr0vdg==",
   "success": true,
   "projectFilePath": "/Users/haydenh/Desktop/untitled folder/untitled folder.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/haydenh/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

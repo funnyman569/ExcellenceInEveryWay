@@ -56,7 +56,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Create create = new();
-        create.MakePersonInfoList();
+        Client_info client_Info = new();
+        client_Info.getClientInfo("Brayden", "Bold");
     }
 }
