@@ -30,6 +30,8 @@ class Form
         console.Write("Last Name: ");
         string c_lastName = console.ReadLine();
 
+        var goalInfoList = new List<GoalInfo>();
+
         Client_info client = new Client_info();
         client.getClientInfo(c_firstName, c_lastName);
         if (client != null)
@@ -41,12 +43,37 @@ class Form
                 string c_goalRating = console.ReadLine();
                 console.WriteLine("Notes: ");
                 string c_notes = console.ReadLine();
+
+                goalInfoList.Add(new GoalInfo
+                {
+                    goal = goal,
+                    goalRating = c_goalRating,
+                    notes = c_notes
+                });
             }
         }
         else
         {
             console.WriteLine("Client not found");
         }
+
+        var formData = new
+            {
+                Date = date,
+                WorkerFirstName = workerFirstName,
+                WorkerLastName = workerLastName,
+                JobTitle = jobTitle,
+                StartTime = startTime,
+                EndTime = endTime,
+                TotalHours = totalHours,
+                ClientFirstName = clientFirstName,
+                ClientLastName = clientLastName,
+                Goals = goalInfoList
+            };
+
+            string json = JsonConvert.SerializeObject(formData, Formatting.Indented);
+            File.WriteAllText("Report.json", json);
+            Console.WriteLine("Form data saved to formData.json");
 
     }
 }
