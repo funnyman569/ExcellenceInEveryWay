@@ -1,3 +1,4 @@
+/*
 class Worker : Person
 {
     Jsonserializer jsonSerializer = new();
@@ -14,3 +15,5 @@ class Worker : Person
     }
     
 }
+
+*/

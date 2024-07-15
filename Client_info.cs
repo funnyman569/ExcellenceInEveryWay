@@ -1,5 +1,6 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
+/*
 public class Client_info: Person
 {
 
@@ -12,3 +13,5 @@ public class Client_info: Person
         Client_info person = client.FirstOrDefault(x => x.f_name == firstName && x.l_name == lastName);
     }
 }
+
+*/

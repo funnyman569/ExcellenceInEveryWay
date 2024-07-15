@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 public class Create
@@ -6,7 +7,6 @@ public class Create
     {
         Person person = new Person();
         {
-            //NOTE FROM HAYDEN: variable assignment doesnt need to be of variable type 'person'
             Console.Write("Enter your first name: ");
             person.f_name = Console.ReadLine();
             Console.Write("Enter your last name: ");
@@ -20,14 +20,33 @@ public class Create
         }
 
         string jsonString = JsonSerializer.Serialize(person);
-        File.WriteAllText("jaonfile.js", jsonString);
+        File.WriteAllText("jaonfile.json", jsonString);
 
-    }
+    }  
 
-    public GetPerson_info()
+    //Makes a List<Person> which contains a string of each entry in 'Jaon' File
+    //Is used in other classes to ultimately find the info of the person who we are looking for
+        public void MakePersonInfoList()
     {
-        var worker = File.ReadAllText("jaonfile.js");
-        Person person = jsonSerializer.Deserialize<Person>(worker);
+        var worker = File.ReadAllText("jaonfile.json");
+        List<Person>? people = JsonSerializer.Deserialize<List<Person>>(worker);
+
+        if (people != null)
+        {
+            foreach (var person in people)
+            {
+                Console.WriteLine($"{person.f_name} {person.l_name}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Deserialization failed.");
+        }
     }
+
+   
+
+
+    
         
 }

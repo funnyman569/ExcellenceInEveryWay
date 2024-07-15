@@ -1,18 +1,21 @@
+/*
 class Pay : Worker
 {
-    private int hourlyPay
+    private int hourlyPay{get; set;}
 
-    public Pay : base()
+    public Pay() : base()
     {
-        hourlyPay = 0
+        hourlyPay = 0;
     }
 
    
    //Need to add 
-    public int SetHourlyPay
+    public int SetHourlyPay()
     {
 
-        hourlyPay =  
+        return 0 ;//test!!!
     }
 
 }
+
+*/

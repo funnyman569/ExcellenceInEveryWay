@@ -1,12 +1,13 @@
- public class Person()
+ //temporarily added "title" and "hourly_pay" inorder to test JsonSerializer
+ public class Person
 {
-    private Create create = new();
-    public string  f_name {get;}
-    public string  l_name {get;}
-    public string email {get;}
-    public string  phoneNumber {get;}
-    public List<string> goals = new List<string>();
-
+   public string? f_name { get; set; }
+    public string? l_name { get; set; }
+    public string? email { get; set; }
+    public string? phoneNumber { get; set; }
+    public string? title{get; set;}
+    public string? hourly_pay{get; set;}
+    public List<string>? goals { get; set; } = new List<string>();
 
 }
 

@@ -1,4 +1,5 @@
-partial class Program
+/*
+class Program
 {
     static void Main(string[] args)
     {
@@ -46,5 +47,16 @@ partial class Program
             Console.WriteLine("Invalid choice.");
             Main(args);
         }
+    }
+}
+
+*/
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Create create = new();
+        create.MakePersonInfoList();
     }
 }

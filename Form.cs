@@ -1,5 +1,5 @@
 using System;
-
+/*
 class Form
 {
     public Form()
@@ -41,7 +41,7 @@ class Form
             foreach (string goal in client.goals)
             {
                 Console.WriteLine($"Goal: {goal}"); 
-                Console.Write("How well did they do on this Goal [1-5]: ")
+                Console.Write("How well did they do on this Goal [1-5]: ");
                 string c_goalRating = Console.ReadLine();
                 Console.WriteLine("Notes: ");
                 string c_notes = Console.ReadLine();
@@ -79,3 +79,4 @@ class Form
 
     }
 }
+*/
