@@ -17,3 +17,4 @@ const workers = [
         hourly_pay: "19",
     }
 ]
+
