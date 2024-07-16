@@ -1,4 +1,4 @@
-/*
+
 class Program
 {
     static void Main(string[] args)
@@ -16,19 +16,20 @@ class Program
 
         if (choice == 1)
         {
-            Form();
+            Form form = new();
+            form.FillForm();
         }
         else if (choice == 2)
         {
-            ScheduleTimes();
+            // ScheduleTimes();
         }
         else if (choice == 3)
         {
-            SendForm();
+            // SendForm();
         }
         else if (choice == 4)
         {
-            PayEmployees();
+            // PayEmployees();
         }
         else if (choice == 5)
         {
@@ -36,11 +37,11 @@ class Program
         }
         else if (choice == 6)
         {
-            CreateNewClient();
+            // CreateNewClient();
         }
         else if (choice == 7)
         {
-            Exit();
+            // Exit();
         }
         else
         {
@@ -50,13 +51,13 @@ class Program
     }
 }
 
-*/
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Client_info client_Info = new();
-        client_Info.getClientInfo("Brayden", "Bold");
-    }
-}
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Client_info client_Info = new();
+//         client_Info.getClientInfo("Brayden", "Bold");
+//     }
+// }
