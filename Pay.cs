@@ -1,21 +1,30 @@
-/*
+
 class Pay : Worker
 {
-    private int hourlyPay{get; set;}
+    private string hourlyPay{get; set;}
+    private int hoursWorked{get;}
 
-    public Pay() : base()
+    public Pay()
     {
-        hourlyPay = 0;
+        hoursWorked = 5;
     }
 
-   
-   //Need to add 
-    public int SetHourlyPay()
+    public int SetTotalPay(int hourlyPay, int hoursWorked)
     {
-
-        return 0 ;//test!!!
+       return hourlyPay * hoursWorked;
     }
+
+public void PrintTotalPay()
+{
+    System.Console.WriteLine(SetTotalPay(int.Parse(hourlyPay), hoursWorked ));
+}
+
+
+
+
+
+
+
 
 }
 
-*/

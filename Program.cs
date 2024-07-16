@@ -52,7 +52,6 @@ class Program
 }
 
 
-<<<<<<< HEAD
 class Program
 {
     static void Main(string[] args)
@@ -62,14 +61,3 @@ class Program
 
     }
 }
-=======
-
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Client_info client_Info = new();
-//         client_Info.getClientInfo("Brayden", "Bold");
-//     }
-// }
->>>>>>> test1
