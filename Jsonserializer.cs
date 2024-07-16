@@ -33,11 +33,12 @@ public class Create
         List<Worker>? people = System.Text.Json.JsonSerializer.Deserialize<List<Worker>>(workerObject);
     }
 
-     public void getClientInfo(string firstName, string lastName)
+     public static Client_info getClientInfo(string firstName, string lastName)
     {
         string jsonData = File.ReadAllText("clientJsonFile.json");
         List<Client_info>? client = JsonConvert.DeserializeObject<List<Client_info>>(jsonData);
         Client_info? person = client.FirstOrDefault(x => (x.f_name == firstName && x.l_name == lastName));
+        return person;
     }
    
 

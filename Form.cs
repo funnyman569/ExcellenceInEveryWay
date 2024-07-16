@@ -37,8 +37,7 @@ public class Form
 
         var goalInfoList = new List<Dictionary<string, string>>();
 
-        Client_info client = new();
-        Client_info person = client.getClientInfo(c_firstName, c_lastName);
+        Client_info person = Create.getClientInfo(c_firstName, c_lastName);
         if (person != null)
         {
             foreach (string goal in person.goals)
