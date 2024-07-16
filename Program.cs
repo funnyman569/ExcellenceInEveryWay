@@ -56,7 +56,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Client_info client_Info = new();
-        client_Info.getClientInfo("Brayden", "Bold");
+        Create create = new();
+        create.getClientInfo("Brayden","Bold");
+
     }
 }

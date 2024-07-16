@@ -1,6 +1,7 @@
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 public class Create
 {
     public void CreateWorker(string [] args)
@@ -19,7 +20,7 @@ public class Create
             worker.phoneNumber = Console.ReadLine();
         }
 
-        string jsonString = JsonSerializer.Serialize(worker);
+        string jsonString = System.Text.Json.JsonSerializer.Serialize(worker);
         File.WriteAllText("jaonfile.json", jsonString);
 
     }  
@@ -29,9 +30,15 @@ public class Create
         public void MakeWorkerInfoList()
     {
         var workerObject = File.ReadAllText("jaonfile.json"); //workerObject holds the deserialized info of the worker
-        List<Worker>? people = JsonSerializer.Deserialize<List<Worker>>(workerObject);
+        List<Worker>? people = System.Text.Json.JsonSerializer.Deserialize<List<Worker>>(workerObject);
     }
 
+     public void getClientInfo(string firstName, string lastName)
+    {
+        string jsonData = File.ReadAllText("clientJsonFile.json");
+        List<Client_info>? client = JsonConvert.DeserializeObject<List<Client_info>>(jsonData);
+        Client_info? person = client.FirstOrDefault(x => (x.f_name == firstName && x.l_name == lastName));
+    }
    
 
 
