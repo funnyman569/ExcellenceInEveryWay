@@ -35,7 +35,6 @@
 //         Console.Write("Last Name: ");
 //         string c_lastName = Console.ReadLine();
 
-<<<<<<< HEAD
 //         var goalInfoList = new List<Dictionary<string, string>>();
 
 //         Client_info person = Create.getClientInfo(c_firstName, c_lastName);
@@ -48,21 +47,6 @@
 //                 string c_goalRating = Console.ReadLine();
 //                 Console.WriteLine("Notes: ");
 //                 string c_notes = Console.ReadLine();
-=======
-        var goalInfoList = new List<Dictionary<string, string>>();
-        Create get_client = new(); // get client
-
-        Client_info person = get_client.getClientInfo(c_firstName, c_lastName);
-        if (person != null)
-        {
-            foreach (string goal in person.goals)
-            {
-                Console.WriteLine($"Goal: {goal}"); 
-                Console.Write("How well did they do on this Goal [1-5]: ");
-                string c_goalRating = Console.ReadLine();
-                Console.WriteLine("Notes: ");
-                string c_notes = Console.ReadLine();
->>>>>>> 7a34c2242f60ac7231134035a6310b56613010d6
 
 //                 var goalInfo= new Dictionary<string, string>
 //                 {
