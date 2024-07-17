@@ -36,8 +36,9 @@ public class Form
         string c_lastName = Console.ReadLine();
 
         var goalInfoList = new List<Dictionary<string, string>>();
+        Create get_client = new(); // get client
 
-        Client_info person = Create.getClientInfo(c_firstName, c_lastName);
+        Client_info person = get_client.getClientInfo(c_firstName, c_lastName);
         if (person != null)
         {
             foreach (string goal in person.goals)

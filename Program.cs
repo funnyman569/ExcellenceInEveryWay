@@ -52,12 +52,12 @@ class Program
 }
 
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Create create = new();
-        create.getClientInfo("Brayden","Bold");
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Create create = new();
+//         create.getClientInfo("Brayden","Bold");
 
-    }
-}
+//     }
+// }
