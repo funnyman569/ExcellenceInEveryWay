@@ -59,8 +59,8 @@ class Program
         
             static void Main(string[] args)
         {
-            Worker_Schedule worker_Schedule = new();
-            worker_Schedule.ViewListOfAvailabilitiesWorkers();
+           Create create = new();
+           create.CreateWorker();
 
         }
 }

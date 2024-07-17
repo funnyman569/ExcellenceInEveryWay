@@ -1,20 +1,24 @@
 [
-    {
-        "f_name": "Cesar",
-        "l_name": "Tavarez",
-        "email": "tav23002@gmail.com",
-        "phone_number": "208-555-1234",
-        "title": "Behavior Interventionist",
-        "hourly_pay": "19",
-        "availability" : ["10:00 - 12:00"]
-    },
-    {
-        "f_name": "Hayden",
-        "l_name": "Harris",
-        "email": "HaHrr@example.com",
-        "phone_number": "208-555-1234",
-        "title": "Behavior Interventionist",
-        "hourly_pay": "19",
-        "availability" : ["8:00 - 10:00"]
-    }
+  {
+    "title": "Behavior Interventionist",
+    "hourly_pay": "35",
+    "f_name": "Han",
+    "l_name": "Solo",
+    "email": "milleniumFalcon@starwars.com",
+    "phoneNumber": "(208)701-4426",
+    "availability": [
+      "8:00:00 - 12:00:00"
+    ]
+  },
+  {
+    "title": "Parah Professional",
+    "hourly_pay": "35",
+    "f_name": "Mike",
+    "l_name": "Wazowsky",
+    "email": "LilGreenMike@MonstersInc.org",
+    "phoneNumber": "2086576543",
+    "availability": [
+      "1:00:00 - 3:00:00"
+    ]
+  }
 ]
