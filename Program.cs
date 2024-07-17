@@ -59,17 +59,9 @@ class Program
         
             static void Main(string[] args)
         {
-            Client_info client_Info = new();
-            Client_info? person = client_Info.getClientInfo("Brayden", "Bold");
+            Worker_Schedule worker_Schedule = new();
+            worker_Schedule.ViewListOfAvailabilitiesWorkers();
 
-            if (person != null)
-            {
-                Console.WriteLine(person.email);   
-            }
-            else
-            {
-                Console.WriteLine("Client not found.");
-            }
         }
-    }
+}
 

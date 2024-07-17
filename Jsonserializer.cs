@@ -27,11 +27,12 @@ public class Create
 
     //Makes a List<Worker> which contains a string of each entry in 'Jaon' File
     //Is used in other classes to ultimately find the info of the worker who we are looking for
-        public void MakeWorkerInfoList()
-    {
-        var workerObject = File.ReadAllText("jaonfile.json"); //workerObject holds the deserialized info of the worker
-        List<Worker>? people = System.Text.Json.JsonSerializer.Deserialize<List<Worker>>(workerObject);
-    }
+        public List<Worker> MakeWorkerInfoList()
+            {
+                List<Worker> people = new();
+                var workerObject = File.ReadAllText("jaonfile.json"); //workerObject holds the deserialized info of the worker
+                return people = System.Text.Json.JsonSerializer.Deserialize<List<Worker>>(workerObject);
+            }
 
      
    

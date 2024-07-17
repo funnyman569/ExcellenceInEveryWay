@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = untitled_folder
-<<<<<<< HEAD
 build_property.ProjectDir = /Users/haydenh/Desktop/untitled folder/
-=======
-build_property.ProjectDir = c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\
->>>>>>> 7a34c2242f60ac7231134035a6310b56613010d6
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -5,7 +5,8 @@
         "email": "tav23002@gmail.com",
         "phone_number": "208-555-1234",
         "title": "Behavior Interventionist",
-        "hourly_pay": "19"
+        "hourly_pay": "19",
+        "availability" : ["10:00 - 12:00"]
     },
     {
         "f_name": "Hayden",
@@ -13,6 +14,7 @@
         "email": "HaHrr@example.com",
         "phone_number": "208-555-1234",
         "title": "Behavior Interventionist",
-        "hourly_pay": "19"
+        "hourly_pay": "19",
+        "availability" : ["8:00 - 10:00"]
     }
 ]

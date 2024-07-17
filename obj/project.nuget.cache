@@ -1,16 +1,17 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "DL7GDsHxF30Gnd9qBR4/4hsnDheWi8NdkV392EPokMyoCrMSXAeSNOuP09eZ7gZINxnyx91ecusgJg6KAr0vdg==",
   "success": true,
   "projectFilePath": "/Users/haydenh/Desktop/untitled folder/untitled folder.csproj",
-=======
-  "dgSpecHash": "evM56+JNTM6Nya5D5Ks8AcRnt2tE3zjYYfpVHbdABQikUvj9z+NExFC0CzYL/VLm39QD77lIMaaGuOEddfsw/g==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\final_for_classes\\ExcellenceInEveryWay\\untitled folder.csproj",
->>>>>>> 7a34c2242f60ac7231134035a6310b56613010d6
   "expectedPackageFiles": [
     "/Users/haydenh/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/haydenh/Desktop/untitled folder/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
