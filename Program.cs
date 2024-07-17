@@ -53,6 +53,7 @@
 // }
 
 
+<<<<<<< HEAD
 class Program
 {
    
@@ -73,3 +74,14 @@ class Program
         }
     }
 
+=======
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Create create = new();
+//         create.getClientInfo("Brayden","Bold");
+
+//     }
+// }
+>>>>>>> 7a34c2242f60ac7231134035a6310b56613010d6
