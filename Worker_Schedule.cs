@@ -14,16 +14,6 @@ class Worker_Schedule : Scheduleing
                     {
                         System.Console.WriteLine(availability);
                     }
-                
-            // foreach (Worker workerInfo in listOfWorkers)
-            // {
-            //     string workerInfoString = workerInfo.ToString();
-            //     string [] workerInfoStirngSplit = workerInfoString.Split(' ');
-
-
-            // }
-
-
         }
     }
 
