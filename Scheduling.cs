@@ -1,5 +1,5 @@
 
-class Scheduleing
+public class Scheduleing
 {
     protected Worker worker = new(); //use to set availabilities of workers
     protected Client_info client_Info = new(); //use to set availabilites of clients

@@ -34,3 +34,21 @@ c:/Users/tavar/OneDrive/Documents/BYU-I_classes/Third-Semester/final_for_classes
 c:/Users/tavar/OneDrive/Documents/BYU-I_classes/Third-Semester/final_for_classes/ExcellenceInEveryWay/obj/Debug/net8.0/untitled folder.pdb
 c:/Users/tavar/OneDrive/Documents/BYU-I_classes/Third-Semester/final_for_classes/ExcellenceInEveryWay/obj/Debug/net8.0/untitled folder.genruntimeconfig.cache
 c:/Users/tavar/OneDrive/Documents/BYU-I_classes/Third-Semester/final_for_classes/ExcellenceInEveryWay/obj/Debug/net8.0/ref/untitled folder.dll
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\untitled folder.exe
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\untitled folder.deps.json
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\untitled folder.runtimeconfig.json
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\untitled folder.dll
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\untitled folder.pdb
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\bin\Debug\net8.0\Newtonsoft.Json.dll
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.csproj.AssemblyReference.cache
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.AssemblyInfoInputs.cache
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.AssemblyInfo.cs
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.csproj.CoreCompileInputs.cache
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.sourcelink.json
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled.6B2AFEF5.Up2Date
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.dll
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\refint\untitled folder.dll
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.pdb
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\untitled folder.genruntimeconfig.cache
+c:\Users\tavar\OneDrive\Documents\BYU-I_classes\Third-Semester\final_for_classes\ExcellenceInEveryWay\obj\Debug\net8.0\ref\untitled folder.dll

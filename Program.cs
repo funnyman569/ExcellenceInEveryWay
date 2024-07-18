@@ -22,7 +22,8 @@ class Program
         }
         else if (choice == 2)
         {
-            // ScheduleTimes();
+            ScheduleTime scheduling = new();
+            scheduling.scheduleClientTime();
         }
         else if (choice == 3)
         {
@@ -53,15 +54,15 @@ class Program
 }
 
 
-class Program
-{
+// class Program
+// {
    
         
-            static void Main(string[] args)
-        {
-           Create create = new();
-           create.CreateWorker();
+//             static void Main(string[] args)
+//         {
+//            Create create = new();
+//            create.CreateWorker();
 
-        }
-}
+//         }
+// }
 

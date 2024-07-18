@@ -18,10 +18,18 @@ public class Client_info: Person
 
      public Client_info? getClientInfo(string firstName, string lastName)
     {
-        string jsonData = File.ReadAllText("clientJsonFile.json");
-        List<Client_info>? client = JsonConvert.DeserializeObject<List<Client_info>>(jsonData);
-        Client_info? person = client.FirstOrDefault(x => x.f_name == firstName && x.l_name == lastName);
-        return person;
+        if(File.Exists("clientJsonFile.json"))
+        {
+            string jsonData = File.ReadAllText("clientJsonFile.json");
+            List<Client_info>? client = JsonConvert.DeserializeObject<List<Client_info>>(jsonData);
+            Client_info? person = client.FirstOrDefault(x => x.f_name == firstName && x.l_name == lastName);
+            return person;
+        }
+        else
+        {
+            return null;
+        }
+
     }
 }
 
