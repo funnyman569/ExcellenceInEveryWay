@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/haydenh/.nuget/packages/": {}
+    "C:\\Users\\tavar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haydenh/Desktop/untitled folder/untitled folder.csproj",
+      "projectUniqueName": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\final_for_classes\\ExcellenceInEveryWay\\untitled folder.csproj",
       "projectName": "untitled folder",
-      "projectPath": "/Users/haydenh/Desktop/untitled folder/untitled folder.csproj",
-      "packagesPath": "/Users/haydenh/.nuget/packages/",
-      "outputPath": "/Users/haydenh/Desktop/untitled folder/obj/",
+      "projectPath": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\final_for_classes\\ExcellenceInEveryWay\\untitled folder.csproj",
+      "packagesPath": "C:\\Users\\tavar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\final_for_classes\\ExcellenceInEveryWay\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/haydenh/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\tavar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -117,16 +117,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/haydenh/Desktop/untitled folder/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
