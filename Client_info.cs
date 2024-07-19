@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 public class Client_info: Person
 {
     public List<string>? goals {get; set;} = new List<string>();
-    
+    public List<string>? Parents {get; set;} = new();
     public int time_allowed_with_BI { get; set; }
     public int time_allowed_with_PP { get; set; }
 
@@ -31,5 +31,51 @@ public class Client_info: Person
         }
 
     }
+
+    public void SetClientParents()
+    {
+        bool exitKey = true;
+        while (exitKey)
+        {
+            System.Console.WriteLine("Please Enter the First Gaurdians Name");
+            string gaurdian = Console.ReadLine();
+            Parents.Add(gaurdian);
+            System.Console.WriteLine("Would you like to add another Gaurdian? (Y/N)");
+            string add = Console.ReadLine().ToUpper();
+            if (add == "N")
+            {
+                exitKey = false;
+            }
+        }
+    }
+
+    
+
+    public List<string> GetClientParents()
+    {
+        return Parents;
+    }
+public void SetClientGoals()
+    {
+        bool exitKey = true;
+        while (exitKey)
+        {
+            System.Console.WriteLine("Please List the first goal for this client.");
+            string goal = Console.ReadLine();
+            goals.Add(goal);
+            System.Console.WriteLine("Would you like to add another goal? (Y/N)");
+            string add = Console.ReadLine().ToUpper();
+            if (add == "N")
+            {
+                exitKey = false;
+            }
+        }
+    }
+
+public List<string> GetClientGoals()
+{
+    return goals;
 }
+}
+
 

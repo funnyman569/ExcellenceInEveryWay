@@ -37,15 +37,17 @@ class Program
         }
         else if (choice == 5)
         {
-
+            Create create = new();
+            create.CreateWorker();            
         }
         else if (choice == 6)
         {
-            // CreateNewClient();
+           Create create = new();
+           create.CreateNewClient();
         }
         else if (choice == 7)
         {
-            // Exit();
+            System.Console.WriteLine("Thanks for playing!");
         }
         else
         {
@@ -62,8 +64,9 @@ class Program
         
 //             static void Main(string[] args)
 //         {
-//            Create create = new();
-//            create.CreateWorker();
+//            Client_info client_Info = new();
+//            Client_info person = client_Info.getClientInfo("Brayden", "Bold");
+//            System.Console.WriteLine(person);
 
 //         }
 // }

@@ -1,12 +1,34 @@
 [
-    {
-        "f_name" : "Brayden",
-        "l_name" : "Bold",
-        "email": "z2G3M@example.com",
-        "phone": "208-555-1234",
-        "goals": ["Wash hand", "Play nice with others", "Eat healthy"],
-        "parents" : ["Richard Bold", "Sarah Bold"],
-        "time_allowed_with_BI" : 4,
-        "time_allowed_with_PP" : 2
-    }
+  {
+    "goals": [
+      "Wash hand",
+      "Play nice with others",
+      "Eat healthy"
+    ],
+    "Parents": [],
+    "time_allowed_with_BI": 4,
+    "time_allowed_with_PP": 2,
+    "f_name": "Brayden",
+    "l_name": "Bold",
+    "email": "z2G3M@example.com",
+    "phoneNumber": null,
+    "availability": null
+  },
+  {
+    "goals": [
+      "Teach him how to fix it",
+      "Teach him how to swing a hammer",
+      "Teach him to not scream when swiper swipes his hammer"
+    ],
+    "Parents": [
+      "Dora"
+    ],
+    "time_allowed_with_BI": 4,
+    "time_allowed_with_PP": 3,
+    "f_name": "Bob",
+    "l_name": "Builder",
+    "email": "BobtheBuilder@HeCantFixIt.com",
+    "phoneNumber": "2087014426",
+    "availability": null
+  }
 ]
