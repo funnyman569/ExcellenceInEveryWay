@@ -31,7 +31,9 @@ class Program
         }
         else if (choice == 4)
         {
-            // PayEmployees();
+            Pay pay = new();
+           
+            pay.GetSetTotalPays();    
         }
         else if (choice == 5)
         {
