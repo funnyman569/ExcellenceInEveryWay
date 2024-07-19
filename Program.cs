@@ -31,7 +31,11 @@ class Program
         }
         else if (choice == 4)
         {
-            // PayEmployees();
+            Pay pay = new();
+            // pay.CreateInstanceofWorker();
+            // pay.SetTotalPay(pay.GetHourlyPay(),pay.GetHoursWorked());
+            // pay.PrintTotalPay();    
+            pay.GetSetTotalPays();    
         }
         else if (choice == 5)
         {

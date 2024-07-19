@@ -9,4 +9,16 @@ public class Worker : Person
     {
         return create.MakeWorkerInfoList();
     }
+
+     public override string ToString()
+        {
+            var availabilityStr = availability != null ? string.Join(", ", availability) : "No availability";
+
+            return $"Title: {title}\n" +
+                $"Hourly Pay: {hourly_pay}\n" +
+                $"Name: {f_name} {l_name}\n" +
+                $"Email: {email}\n" +
+                $"Phone: {phoneNumber}\n" +
+                $"Availability: {availabilityStr}";
+        }
 }
