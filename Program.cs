@@ -17,8 +17,8 @@ class Program
 
         if (choice == 1)
         {
-            Form form = new();
-            form.FillForm();
+            // Form form = new();
+            // form.FillForm();
         }
         else if (choice == 2)
         {
