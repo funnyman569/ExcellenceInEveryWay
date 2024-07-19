@@ -42,6 +42,12 @@ public class Create
                     Console.WriteLine($"Failed to deserialize existing JSON data: {ex.Message}");
                     workers = new List<Worker>();
                 }
+             }
+    
+        Client_info newClient = new();
+        {
+            System.Console.WriteLine("Enter the Clients First Name: ");
+            Console.ReadLine();
         }
 
         workers.Add(worker);
