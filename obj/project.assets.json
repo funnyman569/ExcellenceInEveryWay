@@ -52,19 +52,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/haydenh/.nuget/packages/": {}
+    "C:\\Users\\tavar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haydenh/Desktop/Final-Project/Final-Project.csproj",
+      "projectUniqueName": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\Final-Project\\ExcellenceInEveryWay\\Final-Project.csproj",
       "projectName": "Final-Project",
-      "projectPath": "/Users/haydenh/Desktop/Final-Project/Final-Project.csproj",
-      "packagesPath": "/Users/haydenh/.nuget/packages/",
-      "outputPath": "/Users/haydenh/Desktop/Final-Project/obj/",
+      "projectPath": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\Final-Project\\ExcellenceInEveryWay\\Final-Project.csproj",
+      "packagesPath": "C:\\Users\\tavar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\Final-Project\\ExcellenceInEveryWay\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/haydenh/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\tavar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -114,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
