@@ -8,5 +8,11 @@ public class ReadJson
         string json = File.ReadAllText("jaonfile.js");
         
     }
+
+    public string ReadSubmittedJson()
+    {
+        string json = File.ReadAllText("Report.json");
+        return json;
+    }
 }
 
