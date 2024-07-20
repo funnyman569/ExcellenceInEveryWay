@@ -27,7 +27,8 @@ class Program
         }
         else if (choice == 3)
         {
-            // SendForm();
+            SendForm sendForm = new();
+            sendForm.SendDailyForm();
         }
         else if (choice == 4)
         {
