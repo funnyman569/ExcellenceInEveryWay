@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C9IqSkQ/xoT9i+JwPgL2CvwxAl0cQos3qd5F1BzvSda0bQrSpMPYUeYS4pb+9tYnUk03My4EDWjowArsYgk40A==",
+  "dgSpecHash": "ww7nCMAw8R2jh54QMis7OQVnKfjJ897Ad3d606yLTeWZ3aoGjwmyqwX2KbadaCg6g0Zy2QqE+56WeMw0TaqcqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tavar\\OneDrive\\Documents\\BYU-I_classes\\Third-Semester\\Final-Project\\ExcellenceInEveryWay\\Final-Project.csproj",
+  "projectFilePath": "/Users/haydenh/Desktop/Final-Project/Final-Project.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tavar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/Users/haydenh/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": [
     {
