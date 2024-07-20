@@ -59,16 +59,3 @@ class Program
 }
 
 
-// class Program
-// {
-   
-        
-//             static void Main(string[] args)
-//         {
-//            Client_info client_Info = new();
-//            Client_info person = client_Info.getClientInfo("Brayden", "Bold");
-//            System.Console.WriteLine(person);
-
-//         }
-// }
-
